@@ -36,6 +36,11 @@ RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php \
     php5.6-pdo-mysql \
     php5.6-soap \
     php5.6-zip \
+    php5.6-xml \
+    php5.6-xmlreader \
+    php5.6-xmlrpc \
+    php5.6-xmlwriter \
+    php5.6-xsl \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/
 
